@@ -4,7 +4,7 @@ import { FirstTabComponent } from "./first-tab/first-tab.component";
 import { SecondTabComponent } from "./second-tab/second-tab.component";
 
 const routes: Routes = [
-  { path: "", redirectTo: "/dashboard-epgu", pathMatch: "full" },
+  { path: "", redirectTo: "/first-tab", pathMatch: "full" },
   { path: "first-tab", component: FirstTabComponent },
   { path: "second-tab", component: SecondTabComponent },
   { path: "**", redirectTo: "/first-tab" }
